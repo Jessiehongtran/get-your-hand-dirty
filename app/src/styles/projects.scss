@@ -1,0 +1,11 @@
+.project-grid {
+    display: flex;
+
+    .project-card {
+        margin: 10px;
+        border: 1px solid grey;
+        border-radius: 10px;
+        width: 20%;
+        height: auto;
+    }
+}
