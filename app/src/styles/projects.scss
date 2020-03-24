@@ -1,11 +1,28 @@
+body {
+    padding: 0 40px 0 40px;
 .project-grid {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 
     .project-card {
-        margin: 10px;
+        text-align: center;
+        margin: 20px 0 20px 0;
         border: 1px solid grey;
         border-radius: 10px;
         width: 20%;
         height: auto;
+
+        .project-name {
+            color: #B93388;
+            font-weight: bold;
+        }
+        img {
+            border-radius: 10px;
+            height: auto;
+        }
+       
     }
+}
 }

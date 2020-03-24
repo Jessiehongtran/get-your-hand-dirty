@@ -21,7 +21,7 @@ class Projects extends React.Component {
                 {projects.map(project => (
                     <div className="project-card" onClick={() => this.handleClick(project.id)}>
                         <img src={project.image} alt="project-img"/>
-                        <p>Project: {project.name}</p>
+                        <p className="project-name">Project: {project.name}</p>
                         <p>Tool: {project.tool}</p>
                     </div>
                 ))}

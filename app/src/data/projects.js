@@ -7,7 +7,7 @@ export const projects = [
         description: "I want to exercise more but I want to have someone exercise with me. What if you can make a robotic personal trainer, who will give you company to exercise and also count your sit-ups.",
         demographic: {
             age: "G1-G5",
-            difficulty: "beginner-intermediate",
+            difficulty: "Beginner-Intermediate",
             duration: "",
             prerequisite: [
 
@@ -62,12 +62,312 @@ export const projects = [
     {
         id: 2,
         name: "Ball launcher",
-        tool: "LittleBits",
+        tool: "LittleBits, Sphero RVR",
         image: "https://res.cloudinary.com/dfulxq7so/image/upload/v1584999053/throwing-arm-1_mvlteu.jpg",
         description: "Using RVR & the littleBits STEAM Student Set, students will create a mobile ball launcher that will be used to play a game.",
         demographic: {
             age: "G1-G5",
-            difficulty: "beginner-Intermediate-Advanced",
+            difficulty: "Beginner-Intermediate-Advanced",
+            duration: "",
+            prerequisite: [
+                
+            ] 
+        },
+        details: {
+            learning: [
+                    "",
+                    "",
+                    ""
+            ],
+            approach: [
+                "",
+                "",
+                ""
+            ],
+            triggering_questions: [
+                "",
+                "",
+                ""
+            ],
+            key_robotics_components: [
+                "",
+                "",
+                ""
+            ],
+            key_programming_concepts: [
+                "",
+                "",
+                ""
+            ],
+            assemble_instruction: {
+                steps: [
+
+                ],
+                links: [
+                    ""
+                ]
+            },
+            resources: [
+                {
+                    script: "",
+                    link: ""
+                },
+                {
+                    script: "",
+                    link: ""
+                }
+            ]
+        }
+    },
+    {
+        id: 3,
+        name: "Grabber",
+        tool: "Lego Spike",
+        image: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585007950/grabber-1024x683_1024x1024_sb3flr.png",
+        description: "",
+        demographic: {
+            age: "G1-G5",
+            difficulty: "Beginner-Intermediate",
+            duration: "",
+            prerequisite: [
+                
+            ] 
+        },
+        details: {
+            learning: [
+                    "",
+                    "",
+                    ""
+            ],
+            approach: [
+                "",
+                "",
+                ""
+            ],
+            triggering_questions: [
+                "",
+                "",
+                ""
+            ],
+            key_robotics_components: [
+                "",
+                "",
+                ""
+            ],
+            key_programming_concepts: [
+                "",
+                "",
+                ""
+            ],
+            assemble_instruction: {
+                steps: [
+
+                ],
+                links: [
+                    ""
+                ]
+            },
+            resources: [
+                {
+                    script: "",
+                    link: ""
+                },
+                {
+                    script: "",
+                    link: ""
+                }
+            ]
+        }
+    },
+    {
+        id: 4,
+        name: "Adventures of the Gingerbread Man",
+        tool: "Sphero Bolt",
+        image: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585008516/sphero_bolt_shot_d9gfli.jpg",
+        description: "",
+        demographic: {
+            age: "G1-G3",
+            difficulty: "Beginner",
+            duration: "",
+            prerequisite: [
+                
+            ] 
+        },
+        details: {
+            learning: [
+                    "",
+                    "",
+                    ""
+            ],
+            approach: [
+                "",
+                "",
+                ""
+            ],
+            triggering_questions: [
+                "",
+                "",
+                ""
+            ],
+            key_robotics_components: [
+                "",
+                "",
+                ""
+            ],
+            key_programming_concepts: [
+                "",
+                "",
+                ""
+            ],
+            assemble_instruction: {
+                steps: [
+
+                ],
+                links: [
+                    ""
+                ]
+            },
+            resources: [
+                {
+                    script: "",
+                    link: ""
+                },
+                {
+                    script: "",
+                    link: ""
+                }
+            ]
+        }
+    },
+    {
+        id: 5,
+        name: "Hack a maze",
+        tool: "Sphero Bolt/Sphero RVR",
+        image: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585008933/maxresdefault_jmybd0.jpg",
+        description: "",
+        demographic: {
+            age: "G4-G8",
+            difficulty: "Intermediate-Advanced",
+            duration: "",
+            prerequisite: [
+                
+            ] 
+        },
+        details: {
+            learning: [
+                    "",
+                    "",
+                    ""
+            ],
+            approach: [
+                "",
+                "",
+                ""
+            ],
+            triggering_questions: [
+                "",
+                "",
+                ""
+            ],
+            key_robotics_components: [
+                "",
+                "",
+                ""
+            ],
+            key_programming_concepts: [
+                "",
+                "",
+                ""
+            ],
+            assemble_instruction: {
+                steps: [
+
+                ],
+                links: [
+                    ""
+                ]
+            },
+            resources: [
+                {
+                    script: "",
+                    link: ""
+                },
+                {
+                    script: "",
+                    link: ""
+                }
+            ]
+        }
+    },
+    {
+        id: 6,
+        name: "Sorting green and red apples",
+        tool: "Lego Spike",
+        image: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585009737/ed8380e4-8115-4ac7-bf1f-aa0600cbfc8f_gkci49.jpg",
+        description: "",
+        demographic: {
+            age: "G4-G8",
+            difficulty: "Intermediate-Advanced",
+            duration: "",
+            prerequisite: [
+                
+            ] 
+        },
+        details: {
+            learning: [
+                    "",
+                    "",
+                    ""
+            ],
+            approach: [
+                "",
+                "",
+                ""
+            ],
+            triggering_questions: [
+                "",
+                "",
+                ""
+            ],
+            key_robotics_components: [
+                "",
+                "",
+                ""
+            ],
+            key_programming_concepts: [
+                "",
+                "",
+                ""
+            ],
+            assemble_instruction: {
+                steps: [
+
+                ],
+                links: [
+                    ""
+                ]
+            },
+            resources: [
+                {
+                    script: "",
+                    link: ""
+                },
+                {
+                    script: "",
+                    link: ""
+                }
+            ]
+        }
+    },
+    {
+        id: 7,
+        name: "Make the first thing move",
+        tool: "Lego Spike",
+        image: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585009579/45678_prod_spike_prime_invention_squad_hopperrace_02-fb0b20b7b56605e6462e230a0af074ed_r39tbp.png",
+        description: "",
+        demographic: {
+            age: "G1-G5",
+            difficulty: "Beginner",
             duration: "",
             prerequisite: [
                 

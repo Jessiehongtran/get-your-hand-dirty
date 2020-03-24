@@ -24,7 +24,7 @@ class Project extends React.Component {
         console.log('clickedProject', clickedProject)
 
         return (
-            <div>
+            <div className="each-project">
                 <div className="project-intro">
                     <p>Project: {clickedProject.name}</p>
                     <p>{clickedProject.description}</p>
