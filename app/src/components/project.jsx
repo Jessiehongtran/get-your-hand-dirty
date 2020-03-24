@@ -26,7 +26,7 @@ class Project extends React.Component {
         return (
             <div className="each-project">
                 <div className="project-intro">
-                    <p>Project: {clickedProject.name}</p>
+                    <h1>Project: {clickedProject.name}</h1>
                     <p>{clickedProject.description}</p>
                     <img src={clickedProject.image} alt="project-img"/>
                 </div>
@@ -78,6 +78,26 @@ class Project extends React.Component {
                     {clickedProject.details.key_programming_concepts.map(point => (
                         <ul>
                             <li>{point}</li>
+                        </ul>
+                    )
+                    )}
+                </div>
+                <div className="resources">
+                    Resources
+                    {clickedProject.details.resources.map(resource => (
+                        <ul>
+                            {resource.script}
+                            <li><a href={resource.link}>{resource.link}</a></li>
+                        </ul>
+                    )
+                    )}
+                </div>
+                <div className="codes">
+                    Codes for reference
+                    {clickedProject.details.codes.map(code => (
+                        <ul>
+                            {code.note}
+                            <img  src={code.url}/>
                         </ul>
                     )
                     )}
