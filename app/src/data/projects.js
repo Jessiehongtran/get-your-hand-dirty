@@ -490,5 +490,103 @@ export const projects = [
                 } 
             ]
         }
+        
+    },
+    {
+        id: 8,
+        name: "A robot that makes music",
+        tool: "Lego Spike",
+        image: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585580710/spikehomepagehero-77af3772c39adeb77ea6faa4727ae3cf_xy1bmu.png",
+        description: "",
+        demographic: {
+            age: "G1-G5",
+            difficulty: "Beginner",
+            duration: "",
+            prerequisite: [
+                
+            ] 
+        },
+        details: {
+            learning: [
+                    "Make cool music as an amateur",
+                    "Feel music better",
+                    "Automate music development"
+            ],
+            approach: [
+                "Get students feel the song",
+                "Most important, help students to GET THE FIRST NOTE RIGHT: based on the music sheet, try to get the first note right, this is the most important step, then understand relationship between the notes (same, lower, higher) to code the next ones",
+                "Breakdown the music into smaller parts and test those smaller once before proceeding"
+            ],
+            triggering_questions: [
+                "How a piano player plays a song?",
+                "Is making music art or science? Can we make music based on science?"
+            ],
+            key_robotics_components: [
+                "1 Brain - control hub",
+                "Motors to add movements to your creation"
+            ],
+            key_programming_concepts: [
+                "Loop",
+                "Function declaration and calling"
+            ],
+            assemble_instruction: {
+                steps: [
+
+                ],
+                links: [
+                    
+                ],
+                source: "https://bit.ly/2JqOJGk"
+            },
+            resources: [
+                {
+                    script: "Frère Jacques song demo by robot (for Intermediate level",
+                    link: "https://youtu.be/l7Ui2isKi2A"
+                },
+                {
+                    script: "",
+                    link: ""
+                }
+            ],
+            codes: [
+                {
+                    note: "Initial setup",
+                    url: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585581116/Screen_Shot_2020-03-30_at_8.11.39_AM_vpn7md.png"
+                },
+                {
+                    note: "",
+                    url: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585582498/Screen_Shot_2020-03-30_at_8.34.44_AM_xmqsdt.png"
+                },
+                {
+                    note: "Beginner: Happy Birthday music sheet",
+                    url: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585582712/xhappy-birthday-fancier-arrangement-to-transpose-fixed.jpg.pagespeed.ic.oPBDCfteol_wg1mkp.jpg"
+                },
+                {
+                    note: "Beginner: Happy Birthday song code",
+                    url: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585582913/Screen_Shot_2020-03-30_at_8.41.39_AM_mvyqlj.png"
+                },
+                {
+                    note: "Advanced: Dance Monkey music sheet",
+                    url: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585583460/MN0205221_yfqxqs.gif"
+                },
+                {
+                    note: "Setup blocks",
+                    url: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585583540/Screen_Shot_2020-03-30_at_8.51.41_AM_f5d8sy.png"
+                },
+                {
+                    note: "First line: “They say oh my god I see you the way you shine",
+                    url: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585583619/Screen_Shot_2020-03-30_at_8.53.22_AM_cauytb.png"
+                },
+                {
+                    note: "Second line: “Take your hand, my dear, and place them both in mine",
+                    url: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585583678/Screen_Shot_2020-03-30_at_8.54.24_AM_p6bvgg.png"
+                },
+                {
+                    note: "Third line: “You know you stopped me dead when I was passing by",
+                    url: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585583733/Screen_Shot_2020-03-30_at_8.54.59_AM_gz1e1k.png"
+                }    
+            ]
+        }
+        
     }
 ]
