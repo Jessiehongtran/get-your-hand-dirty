@@ -588,5 +588,100 @@ export const projects = [
             ]
         }
         
+    },
+    {
+        id: 9,
+        name: "Wheelchair demonstration",
+        tool: "Lego Spike",
+        image: "https://i.ytimg.com/vi/0TqYeLcieiI/maxresdefault.jpg",
+        description: "Empathize with someone who is using a wheelchair and demonstrate it",
+        demographic: {
+            age: "G1-G5",
+            difficulty: "Beginner",
+            duration: "",
+            prerequisite: [
+                
+            ] 
+        },
+        details: {
+            learning: [
+                    "Empathize with the disabled to be able to demonstrate how they use a wheelchair",
+                    "Understand all components of a wheelchair",
+                    "Get a sense of how motors work along with arm momentum to make wheels move and build them"
+                    
+            ],
+            approach: [
+                "Get students to imagine in real world how a wheelchair moves and how a disabled person controls his wheelchair, what are challenges",
+                "Ignite brainstorming among students to collect all components needed, how each component adds value to the whole robot",
+                "Divide the project into 3 parts:Upper part of the robot: building working arms with 2 motors, Sensor: adding Distance sensor for obstacle detection, Lower part of the robot: adding wheels to the robot",
+                "Show students robot demo and help them see how to implement building",
+                "Ask them how should they program motors and test them"
+                
+            ],
+            triggering_questions: [
+                "How do the wheels move? What makes them move?",
+                "How does a person using wheelchair control turn in some degree (90 degree)?"
+            ],
+            key_robotics_components: [
+                "1 brain",
+                "2 wheels",
+                "2 motors",
+                "Distance sensor to stop wheelchair in front of objects",
+                "Arms" 
+            ],
+            key_programming_concepts: [
+                "Events block: to trigger an action",
+                "Motor block: rotation of the motor to move forward and backward",
+                "Distance sensor block"
+            ],
+            assemble_instruction: {
+                steps: [
+
+                ],
+                links: [
+                    
+                ],
+                source: ""
+            },
+            challenges: {
+                technical: [
+                "Bluetooth connection is not working"
+                ],
+                assembling: [
+                "Program robot to move from one end of the room to another end",
+                "Try adding different paths and turns in your route",
+                "Remember to avoid obstacles and change the course of the direction when the robot encounters an obstacle"
+                ]
+            },
+            resources: [
+                {
+                    script: "Robot demo 1",
+                    link: "https://www.youtube.com/watch?v=0TqYeLcieiI"
+                },
+                {
+                    script: "Robot demo 2",
+                    link: "https://drive.google.com/open?id=1mgBwTWKYTeI_wWdFrfmHtJn6vdehSM0X"
+                },
+                {
+                    script: "Build instruction",
+                    link: "https://www.youtube.com/watch?v=mGuKoBIooag"
+                },
+                {
+                    script: "Demonstration for how distance sensor works",
+                    link: "https://education.lego.com/en-us/lessons/prime-competition-ready/training-camp-2-playing-with-objects"
+                }
+            ],
+            codes: [
+                {
+                    note: "",
+                    url: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585765846/Wheelchair_Code_fejazl.png"
+                },
+                {
+                    note: "",
+                    url: ""
+                }
+            ]
+        }
+        
     }
 ]

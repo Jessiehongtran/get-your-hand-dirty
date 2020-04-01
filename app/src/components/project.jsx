@@ -82,6 +82,24 @@ class Project extends React.Component {
                     )
                     )}
                 </div>
+                <div className="challenges">
+                    Technical challenges:
+                    {clickedProject.details.challenges.technical.map(point => (
+                        <ul>
+                            <li>{point}</li>
+                        </ul>
+                    )
+                    )}
+                </div>
+                <div className="challenges">
+                    Building challenges:
+                    {clickedProject.details.challenges.assembling.map(point => (
+                        <ul>
+                            <li>{point}</li>
+                        </ul>
+                    )
+                    )}
+                </div>
                 <div className="resources">
                     Resources
                     {clickedProject.details.resources.map(resource => (
