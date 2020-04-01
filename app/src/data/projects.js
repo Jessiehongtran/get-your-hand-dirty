@@ -681,7 +681,161 @@ export const projects = [
                     url: ""
                 }
             ]
-        }
-        
+        } 
+    },
+    {
+        id: 10,
+        name: "Super Stirrer",
+        tool: "LittleBits",
+        image: "https://images.littlebits.net/uploads/user/1750/SuperStirrer-web1.jpg?h=500",
+        description: "I am tired of stirring my drink by my hand, what if there is a robot to help me doing it",
+        demographic: {
+            age: "G1-G5",
+            difficulty: "Beginner",
+            duration: "",
+            prerequisite: [
+                
+            ] 
+        },
+        details: {
+            learning: [
+                    "How motor works"
+            ],
+            approach: [
+                "Get students brainstorm what makes stirring happen and compare to transform from human’s behavior to robot’s",
+                "Ask them how to adjust speed and direction (CW, CCW) of the spoon"
+            ],
+            triggering_questions: [
+                "How do the wheels move? What makes them move?",
+                "How does a person using wheelchair control turn in some degree (90 degree)?"
+            ],
+            key_robotics_components: [
+                "Power",
+                "Slide dimmer",
+                "DC Motor"
+                 
+            ],
+            key_programming_concepts: [
+                ""
+            ],
+            assemble_instruction: {
+                steps: [
+
+                ],
+                links: [
+                    
+                ],
+                source: ""
+            },
+            challenges: {
+                technical: [
+                ""
+                ],
+                assembling: [
+                ""
+                ]
+            },
+            resources: [
+                {
+                    script: "Detailed lesson plan",
+                    link: "https://classroom.littlebits.com/projects/super-stirrer-f94f2f78-5ec5-4769-8c15-90ac891b8730"
+                },
+                
+            ],
+            codes: [
+                {
+                    note: "",
+                    url: ""
+                },
+                {
+                    note: "",
+                    url: ""
+                }
+            ]
+        } 
+    },
+    {
+        id: 11,
+        name: "Drawing robot",
+        tool: "LittleBits",
+        image: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585767206/Rover_Slide_Dimmer_DCmotor_z69dmq.jpg",
+        description: "Design a robot that helps you to draw circle and square shapes with any color.",
+        demographic: {
+            age: "G1-G5",
+            difficulty: "Beginner",
+            duration: "",
+            prerequisite: [
+                
+            ] 
+        },
+        details: {
+            learning: [
+                    "Engineering thinking",
+                    "Movement and navigation controllment",
+                    "Input and output manipulation",
+                    "Motion and stability of the robot"      
+            ],
+            approach: [
+                "Demonstrate to students by playing this video to show them what they will be doing in this project",
+                "Get students brainstorm how a car moves and how it turns",
+                "Decide where you want to place “marker or pencil or crayon” on the robot for maximum accuracy and stability while drawing",
+                "Try components: slide dimmer, dc motors",
+                "The robot will move forward when Right wheel (from bottom): CW, Left wheel (from bottom): CCW, Slide dimmer : changing level to change speed",
+                "The robot will move backward when Right wheel (from bottom): CCW, Left wheel (from bottom): CW, Slide dimmer : changing level to change speed",
+                "The robot will move circle when Both wheels CCW or both wheels CW, Both wheels CCW: rotates in clockwise direction, Both wheels CW: rotates in counter clockwise direction, Slide dimmer : changing level to change speed",
+                "The robot will turn 90 degree when One wheel: CW, The other wheel: center, Slide dimmer: center"
+            ],
+            triggering_questions: [
+                "Can we change the movement of the car without touching the slide dimmer?"
+            ],
+            key_robotics_components: [
+                "Input Bit: Slide Dimmer",
+                "Output Bit: DC motors",
+                "Power bit",
+                "Code Bit" 
+            ],
+            key_programming_concepts: [
+                "Loops",
+                "Conditional Statements"
+            ],
+            assemble_instruction: {
+                steps: [
+
+                ],
+                links: [
+                    
+                ],
+                source: ""
+            },
+            challenges: {
+                technical: [
+                ""
+                ],
+                assembling: [
+                ""
+                ]
+            },
+            resources: [
+                {
+                    script: "Robot demo 1",
+                    link: "https://www.youtube.com/watch?v=k_i7vqQmVJo"
+                },
+                {
+                    script: "Detailed lesson plan",
+                    link: "https://classroom.littlebits.com/lessons/drawing-bots-generative-art-machines"
+                },
+                
+            ],
+            codes: [
+                {
+                    note: "",
+                    url: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585768064/Screen_Shot_2020-04-01_at_12.07.15_PM_bvqegl.png"
+                },
+                {
+                    note: "",
+                    url: "https://res.cloudinary.com/dfulxq7so/image/upload/v1585768072/Screen_Shot_2020-04-01_at_12.07.27_PM_vjcayq.png"
+                }
+            ]
+        } 
     }
 ]
